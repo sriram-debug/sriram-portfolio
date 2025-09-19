@@ -1,0 +1,69 @@
+.card{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 6px #1c133b89;
+    opacity: .8;
+    transition: ease 0.5s;
+    z-index: -1;
+    box-shadow: 0 0 20px 1px rgb(255, 0, 174);
+    font-size: large;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color: #00000077;
+    box-shadow: 0 0 40px 1px rgb(255, 0, 174);
+}
+
+.card-items h2{
+    background: linear-gradient(to right,#f53e2e,#d74285,#e055ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.card-items{
+    z-index: 0;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    opacity: 0;
+    transition: ease 0.5s;
+
+}
+.card-items:hover{
+    opacity: 1;
+    margin-top: 0;
+    background-color: rgba(33, 32, 32, 0.471);
+   
+}
+
+.card-items a{
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background:transparent;
+    color: #ff009d;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+
+.card-items a:hover{
+    transform: scale(1.2);
+}

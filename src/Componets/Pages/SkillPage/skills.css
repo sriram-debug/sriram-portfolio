@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/content-bg-3.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.technical-skill{
+    width: 40%;
+    margin: 20px;
+    background-color: #ffffff20;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #0000007f;
+    box-shadow: 0 0 20px 1px rgb(255, 0, 174);
+    
+
+}
+
+.technical-skill{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.technical-skill h1{
+    font-family: "Playwrite AU QLD", cursive;
+    width: fit-content;
+    background: linear-gradient(to right,#f53e2e,#d74285,#e055ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    width: 20vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .progress span {
+    display: block;
+    height: 10px;
+    background: linear-gradient(to right, #f53e2e, #d74285, #e055ff);
+    border-radius: 10px;
+    transition: 5.5s ease-in-out;
+    animation:bar 1.5s ease;
+    
+  }
+
+@keyframes bar{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+  .score {
+    width: 100%;
+    max-width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+  }

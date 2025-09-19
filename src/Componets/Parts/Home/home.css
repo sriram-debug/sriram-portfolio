@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hero-txt{
+    width: 50%;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    text-align: center;
+    animation: TextTransition 1s ease;
+    
+}
+
+h1 .role{
+    font-family: "Playwrite AU QLD", cursive;
+    background: linear-gradient(to right,#f53e2e,#d74285,#e055ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+h1{
+    padding-bottom: 5px;
+}
+
+
+button:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 15px 3px rgb(255, 0, 174);
+}
+
+@keyframes TextTransition{
+    from{
+        opacity: 0;
+        margin-left: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.logo-img img{
+    width: 500px;
+    height: 500px;
+    margin-top: 8rem;
+    margin-left: 0;
+    animation:img-motion 1s ease ;
+    border-radius: 4rem;
+    box-shadow: 0 0 15px 4px #000000;
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px 1px rgb(255, 0, 174);
+}
+.logo-img img:hover{
+    box-shadow: 0 0 30px 1px rgb(255, 0, 174);
+    transform: translateY(3em) scale(1.1);
+}
+
+@keyframes img-motion{
+    from{
+        margin-top:10rem ;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+.role{
+    animation: role-motion 1s ease;
+}
+
+@keyframes role-motion{
+    from{
+        opacity: 0;
+        margin-left:20rem;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

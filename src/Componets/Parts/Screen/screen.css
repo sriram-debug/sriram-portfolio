@@ -1,0 +1,62 @@
+.screen {
+    display: flex;
+    overflow: hidden;
+    
+  }
+  
+  .one {
+    color: black;
+    display: flex;
+    font-size: 9.5rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#f53e2e, #d74286);
+    width: 35vw;
+    height: 100vh;
+    animation: lift 1s ease-in forwards;
+    animation-delay: 0.5s;
+    position: relative;
+  }
+  
+  .two {
+    color: black;
+    display: flex;
+    font-size: 9.9rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#d74286, #c945b9);
+    width: 30vw;
+    height: 100vh;
+    animation: lift 0.75s ease-in forwards;
+    animation-delay: 0.75s;
+    position: relative;
+    
+  }
+  
+  .three {
+    color: black;
+    display: flex;
+    font-size: 9.5rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#c945b9, #df55ff);
+    width: 35vw;
+    height: 100vh;
+    animation: lift 0.5s ease-in forwards;
+    animation-delay: 1s;
+    position: relative;
+  }
+
+.one .two .three{
+  cursor: default;
+}
+  
+  @keyframes lift {
+    from {
+      height: 100vh;
+    }
+    to {
+      height: 0;
+    }
+  }
+  

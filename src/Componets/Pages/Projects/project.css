@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+.project{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/content-bg-2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: fade 1.5s ease-in-out;
+    animation-range: entry 0% cover 70vh;
+    animation-timeline: view();
+}
+
+@keyframes fade{
+    from{
+        align-items: baseline;
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.projects-tittle{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: -4rem;
+    padding:4rem 0;
+}
+
+.projects-tittle h1{
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 3rem;
+    background: linear-gradient(to right,#f53e2e,#d74285,#e055ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+

@@ -1,0 +1,8 @@
+body{
+    color: aliceblue;
+    position: relative;
+}
+
+.landingpage{
+    overflow-y: hidden;
+}

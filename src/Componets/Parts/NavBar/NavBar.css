@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background:rgba(28, 27, 28, 0.874);
+    padding:15px 0 ;
+    animation: TransitionIn 1s ease-in;
+    box-shadow: 0 0 10px 3px rgb(255, 0, 174);
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+    
+}
+
+nav{
+    background: transparent;
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+    
+    
+}
+
+.title{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    color: #d74286;
+}
+
+.email{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    background: linear-gradient(to right,#F875AA,#D37AE6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: url(../../../assets/cursor.png),auto;
+
+}
+
+
+nav li{
+    margin-top: 4px;
+    transition: 0.5s ease-in-out;
+    font-weight: 700;
+}
+nav li:hover{
+    background: linear-gradient(to right,#f53e2e,#d74285,#e055ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.2);
+    
+
+}
+
+@keyframes TransitionIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
